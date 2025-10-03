@@ -2,7 +2,7 @@ from langchain_ollama import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 from templates.llm_template import template
 
-model = OllamaLLM(model="llama3")
+model = OllamaLLM(model="llama3.2")
 
 
 def parse_with_llama3(content_chunks, parse_description):
